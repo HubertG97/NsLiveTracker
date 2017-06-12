@@ -1,0 +1,185 @@
+@import "normalize.css";
+body {
+    background-image: url("../pictures/rdc.jpg");
+    background-size: cover;
+}
+
+h1, h3 {
+    margin-top:0;
+    margin-bottom:0;
+    margin-left: 40%;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+form {
+    margin-top: 15px;
+}
+form input {
+    margin-right: 15px;
+}
+#results {
+    display:inline-block; margin:20px; padding:20px; background:#ccc;
+}
+
+#my_camera{
+    display: block;
+    margin-left: 25%;
+    margin-top: 150px;
+
+}
+
+#button {
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin-left: 48%;
+    color: black !important;
+    font-size: 25px;
+    text-shadow: 1px 1px 0px #474747;
+    box-shadow: 1px 1px 1px #585858;
+    padding: 10px 25px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #6C6A6A;
+    background: #F2F2F2;
+    background: linear-gradient(top,  #D1D1D1,  #DBDBDB);
+    background: -ms-linear-gradient(top,  #DBDBDB,  #B2B2B2);
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#7A7A7A));
+    background: -moz-linear-gradient(top,  #BDBDBD,  #5B5B5B);
+}
+#button:hover {
+    color: black !important;
+    background: black;
+    background: linear-gradient(top,  #CACACA,  #525252);
+    background: -ms-linear-gradient(top,  #919191,  #B2B2B2);
+    background: -webkit-gradient(linear, left top, left bottom, from(#C7C5C5), to(#878686));
+    background: -moz-linear-gradient(top,  #BDBDBD,  #5B5B5B);
+}
+
+.takebutton {
+    margin-left:43%;
+    font-size: 20px;
+}
+
+#results {
+    margin-left:32%;
+    background: rgba(200,200,200, 0.5);
+
+}
+
+.title {
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin-left: 35%;
+}
+
+
+
+.jumbotron {
+    background: rgba(200,200,200, 0.5);
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 18%;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.title {
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+body {
+    background-image: url("../pictures/rdc.jpg");
+    background-size: cover;
+}
+
+.pictures {
+    background: rgba(200,200,200, 0.5);
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 18%;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    text-align: center;
+}
+
+
+footer a{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+    padding-right:100px;
+}
+.name {
+    display: block;
+    border-style: none;
+    text-align: center;
+}
+
+.self {
+    border-style: solid;
+    text-align: center;
+    background-color: rgb(0, 45, 114);
+    display: block;
+
+}
+
+.button {
+    display: block;
+    text-align: center;
+}
+
+.backbutton {
+    margin-left: auto;
+}
+
+.save {
+    margin-right: auto;
+}
+
+.jumbotron p {
+    font-size:30px;
+    text-align:center;
+}
+
+.albums {
+    background: rgba(200,200,200, 0.5);
+    width: 80%;
+    margin-top: 50px;
+    margin-left:10%;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    text-align: center;
+}
+
+.content {
+    background: rgba(200,200,200, 0.5);
+    font-size: 25px;
+    width:50%;
+    display: block;
+    text-align: center;
+    margin-left:450px;
+    margin-top: 50px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    overflow: auto;
+
+}
+
+.box{
+
+    text-align: center;
+    padding:10px;
+    flex-basis: auto;
+}
