@@ -7,7 +7,7 @@ en een in de wachtruimte op een treinstation.
 Een passagier kan een foto maken in de trein
 Vervolgens komt deze te staan op een groot scherm op het station van aankomst.
 Zo kunnen wachtende zien wie er aan komt.
-De foto word doorgestuurd doormiddel van de Flickr API
+De foto word doorgestuurd doormiddel van de Flickr API.
 </ol>
 
 # Demo
